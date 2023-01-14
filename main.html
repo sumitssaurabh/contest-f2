@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div><h2 class="h2">New Employees</h2></div>
+
+      <div class="form" id="Entername">
+        <div class="f2">
+          <!-- <span class="s"> -->
+          <label for="Enter Name">Enter Name</label>
+          <br />
+
+          <input type="text" placeholder="" id="EnterName" required />
+          <!-- </span> -->
+        </div>
+
+        <div class="f2">
+          <!-- <span class="s"> -->
+          <label for="Enter Name">Enter Profession</label>
+          <br />
+
+          <input type="text" placeholder="" id="EnterProfession" required />
+          <!-- </span> -->
+        </div>
+
+        <div class="f2">
+          <!-- <span class="s"> -->
+          <label for="EnterName">Enter Age</label>
+          <br />
+
+          <input type="text" placeholder="" id="EnterAge" required />
+          <!-- </span> -->
+        </div>
+        <br />
+      </div>
+      <br />
+      <button class="btn" id="Adduser"  onclick="addUser()">Add User</button>
+      <br>
+      <br>
+      <span id="error"></span>
+      <div class="h3"><h3>Add Employees</h3></div>
+      <span id="noEmployee"></span>
+      
+        <!-- <h5 class="h5"> -->
+          <!-- Error : please Make sure All the fields are filled before adding in an             -->
+          <!-- employee -->
+        <!-- </h5> -->
+      <!-- </div> -->
+      <!-- <div><h5 class="green">Success : Employee Added !</h5></div> -->
+      <!-- <div><h6 class="h5">You have 0 employee</h6></div> -->
+
+      <div id="table">
+        <table>
+          <thead></thead>
+        </table>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+* {
+  background-color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  margin-left: 23px;
+}
+
+input {
+  color: white;
+}
+
+.f2 {
+  /* border: solid rgb(219, 82, 14); */
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.s1 {
+  color: white;
+  padding-left: 434px;
+}
+.s2 {
+  color: white;
+  padding-left: 409px;
+}
+
+.h2 {
+  /* border: solid rgb(219, 82, 14); */
+  color: aliceblue;
+  margin-top: 51px;
+  /* margin-left: 38px; */
+}
+.h3 {
+  color: white;
+  /* margin-left: 53px; */
+}
+
+.h6 {
+  color: white;
+  /* margin-left: 53px; */
+}
+
+.form {
+  display: inline-flex;
+  width: 95%;
+  padding: 1px;
+  margin: 1px;
+  /* margin-left: 23px; */
+}
+
+.form > div {
+  width: 100%;
+}
+
+.btn {
+  background-color: white;
+  /* margin-left: 49px; */
+  width: 122px;
+  height: 33px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.btn:hover {
+  border: 2px solid rgb(163, 228, 65);
+}
+
+input[type="text"] {
+  width: 427px;
+  height: 24px;
+}
+.h5 {
+  color: red;
+  padding: 1px;
+  /* margin-left: 50px; */
+}
+.green {
+  color: green;
+}
